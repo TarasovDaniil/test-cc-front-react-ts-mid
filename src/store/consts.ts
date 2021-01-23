@@ -1,0 +1,7 @@
+export const INIT = 'INIT';
+export const CHANGE_FILTER_VAL = 'CHANGE_FILTER_VAL';
+export const CHANGE_PAGE = 'CHANGE_PAGE';
+export const CHANGE_FILTERED_DOCUMENTS = 'CHANGE_FILTERED_DOCUMENTS';
+export const LOADING = 'LOADING';
+
+export const MAX_DOCUMENTS_PAGE = 25;

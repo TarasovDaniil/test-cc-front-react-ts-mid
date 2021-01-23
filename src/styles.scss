@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+}
+.area-list {
+  display: flex;
+  padding-bottom: 63px;
+}
+.area-filter{
+  min-width: 240px;
+  margin-right: 25px;
+  margin-top: 25px;
+  .MuiFormControl-root{
+    width: 100%;
+  }
+}
+.area-fixed{
+  position: fixed;
+  padding: 15px;
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  & .MuiContainer-root>nav{
+    margin-left: 265px;
+  }
+}
+.area-progress{
+  margin-top: 60px;
+  flex: 1;
+  text-align: center;
+}
